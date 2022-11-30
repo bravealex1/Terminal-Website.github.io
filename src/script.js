@@ -1,22 +1,25 @@
 var commands = document.getElementById("commands");
 var user_input = document.getElementById("user_input");
 var terminal_outputs = document.getElementById("terminal_outputs");
+var terminal_content = document.getElementById("terminal_content");
 
 function execute(input){
     let output;
     input = input.toLowerCase();
-    output = `<div>→ testing the input is ${input}</div>`;
+    output = `<div>→ ${input}</div>`;
     if(!COMMANDS.hasOwnProperty(input)){
-        output += `<div> No such command: ${input} </div>`;
+        output += `<div><span class="command">No such command: </span>${input} </div>`;
     }
     else{
         output += `<div>${COMMANDS[input]} </div>`;
     }
+    
     terminal_outputs.innerHTML = `${terminal_outputs.innerHTML+output}`;
-}
+    terminal_content.scrollTop = terminal_content.scrollHeight;
 
-if (input == "github") {
-    setTimeout (() => {window.open("https://github.com/bravealex1", "_blank");}, 2000);
+    if(input == "github"){
+        setTimeout(() => {window.open("https://github.com/chenkuanliao", "_blank");}, 2000);
+    }
 }
 
 function key(e){

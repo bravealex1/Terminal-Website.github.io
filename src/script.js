@@ -48,6 +48,6 @@ const COMMANDS =
         contact:
         "407-619-6572",
         github:
-        "https://github.com/bravealex1"
+        "opening my GitHub page ..."
 
 }

@@ -47,7 +47,7 @@ document.addEventListener("keypress", key);
 const COMMANDS =
 {
     help:
-    'Supported commands: <span class="command-keyword">"about"</span>, <span class="command-keyword">"experience"</span>, <span class="command-keyword">"education"</span>, <span class="command-keyword">"skills"</span>, <span class="command-keyword">"contact"</span>, <span class="command-keyword">"github"</span> <span class="command-keyword">"resume"</span> <span class="command-keyword">"resume"</span>',
+    'Supported commands: <span class="command-keyword">"about"</span>, <span class="command-keyword">"experience"</span>, <span class="command-keyword">"education"</span>, <span class="command-keyword">"softskills"</span>, <span class="command-keyword">"contact"</span>, <span class="command-keyword">"github"</span> <span class="command-keyword">"resume"</span> <span class="command-keyword">"resume"</span>',
         about:
         "Hello, my name is Alex, and I am a fourth-year student (senior) at Penn State majoring in Information Science and Technology with a focus on design and development. I am a hard-working and self-driving student who strives to succeed and achieve my career and personal goals. I have enhanced my java programming skills in the past two years, completing multiple projects in and outside classes. Since last semester, I have been self-learning python and R programming languages in Dataquest and Datacamp. In addition, I am involved in Nittany AI Challenge and teaming up with others to figure out solutions to increase crop yield by predicting pathogens and reducing economic losses for farmers. My future goal is to apply what I learned in college to the whole world and help to build a better world!",
         experience:
@@ -55,11 +55,11 @@ const COMMANDS =
         education:
         "I am an Honors student at Pennsylvania State University",
         skills:
-        "I know Java Programming, JavaScript, Python",
+        "Java, HTML, CSS, SQL, Node.js, Express.js, JavaScript, Machine Learning, Python",
         contact:
         "407-619-6572",
         github:
-        "https://github.com/bravealex1",
+        "https:opening my github",
         resume:
         'opening my resume',
         linkedin:

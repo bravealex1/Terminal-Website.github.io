@@ -36,21 +36,25 @@ function key(e){
 
 document.addEventListener("keypress", key);
 
-const COMMANDS = 
+const COMMANDS =
 {
     help:
-        'Supported commands: <span class="command-keyword">"about"</span>, <span class="command-keyword">"experience"</span>, <span class="command-keyword">"education"</span>, <span class="command-keyword">"skills"</span>, <span class="command-keyword">"contact"</span>, <span class="command-keyword">"github"</span>',
-    about:
-        "Hello, my name is Brian, not Brain. I like chocolate and I don't like carrots",
-    experience:
-        'I wrote "hello world" in python, and I felt that I have the power in my hand!',
-    education:
-        'I learned to eat by myself at the age of 3. Impressive, isn\'t it?',
-    skills:
-        'I can hold three eggs in my mouth at the same time. Can you?',
-    contact:
-        'You can never find me! HAHAHA!',
-    github:
-        'opening my GitHub page ...'
-    
+    'Supported commands: <span class="command-keyword">"about"</span>, <span class="command-keyword">"experience"</span>, <span class="command-keyword">"education"</span>, <span class="command-keyword">"skills"</span>, <span class="command-keyword">"contact"</span>, <span class="command-keyword">"github"</span> <span class="command-keyword">"resume"</span> <span class="command-keyword">"resume"</span>',
+        about:
+        "Hello, my name is Alex. I like to work out at the gym.",
+        experience:
+        "I am the vice president of the Nittany Data Lab, and I am the front-end developer",
+        education:
+        "I am an Honors student at Pennsylvania State University",
+        skills:
+        "I know Java Programming, JavaScript, Python",
+        contact:
+        "407-619-6572",
+        github:
+        "https://github.com/bravealex1",
+        resume:
+        'opening my resume',
+        linkedin:
+        'opening my linkedin'
+
 }

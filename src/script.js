@@ -26,7 +26,7 @@ function execute(input){
     }
     
      if(input == "linkedin"){
-        setTimeout(() => {window.open("https://www.linkedin.com/in/alex-zhu802/", "_blank");}, 2000);
+        setTimeout(() => {window.open("https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:a85331b8-29e8-36e4-aa64-1ffc0daf2209", "_blank");}, 2000);
     }
 }
 

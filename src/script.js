@@ -18,7 +18,7 @@ function execute(input){
     terminal_content.scrollTop = terminal_content.scrollHeight;
 
     if(input == "github"){
-        setTimeout(() => {window.open("https://github.com/chenkuanliao", "_blank");}, 2000);
+        setTimeout(() => {window.open("https://github.com/bravealex1", "_blank");}, 2000);
     }
 }
 

@@ -22,11 +22,11 @@ function execute(input){
     }
     
      if(input == "resume"){
-        setTimeout(() => {window.open("https://www.linkedin.com/in/alex-zhu802/", "_blank");}, 2000);
+        setTimeout(() => {window.open("https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:a85331b8-29e8-36e4-aa64-1ffc0daf2209", "_blank");}, 2000);
     }
     
      if(input == "linkedin"){
-        setTimeout(() => {window.open("https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:a85331b8-29e8-36e4-aa64-1ffc0daf2209", "_blank");}, 2000);
+        setTimeout(() => {window.open("https://www.linkedin.com/in/alex-zhu802/", "_blank");}, 2000);
     }
 }
 
@@ -57,7 +57,7 @@ const COMMANDS =
         skills:
         "Java, HTML, CSS, SQL, Node.js, Express.js, JavaScript, Machine Learning, Python",
         contact:
-        "407-619-6572",
+        "email: 20010426alex@gmail.com, phone number: 407-619-6572",
         github:
         "https:opening my github",
         resume:

@@ -51,7 +51,7 @@ const COMMANDS =
         about:
         "Hello, my name is Alex, and I am a fourth-year student (senior) at Penn State majoring in Information Science and Technology with a focus on design and development. I am a hard-working and self-driving student who strives to succeed and achieve my career and personal goals. I have enhanced my java programming skills in the past two years, completing multiple projects in and outside classes. Since last semester, I have been self-learning python and R programming languages in Dataquest and Datacamp. In addition, I am involved in Nittany AI Challenge and teaming up with others to figure out solutions to increase crop yield by predicting pathogens and reducing economic losses for farmers. My future goal is to apply what I learned in college to the whole world and help to build a better world!",
         experience:
-        "I am the vice president of the Nittany Data Lab, and I am the front-end developer",
+        "I built a data dictionary and stakeholder analysis for this past summer internship, and I work on a semester-long consulting project. In addition, I serve as the vice president of the Nittany Data Lab. Moreover, I am also the project manager and front-end developer for Fung.ai.",
         education:
         "I am an Honors student at Pennsylvania State University",
         skills:
